@@ -32,8 +32,8 @@ function Home()
               {...register('surname',{
                 required:'Lütfen Soyadınızı Giriniz',
                 minLength:{
-                  value:5,
-                  message:"Soyadınız 5 karakterden az olamaz"
+                  value:3,
+                  message:"Soyadınız 3 karakterden az olamaz"
                 }
               })}/>
               <label>Age</label>
